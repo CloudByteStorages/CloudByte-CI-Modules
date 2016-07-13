@@ -11,7 +11,7 @@ Following are the key modules that will be used for deploying the OpenStack CI:
 
 ## Modules Description
 
-#### install_master.sh
+### install_master.sh
 
 This module installs the following packages:
 
@@ -24,11 +24,11 @@ This module installs the following packages:
 
 Also, after installing these packages it grants the Linux OS (on top of which the above packages are installed) the privilege to be used as a **Jenkins Master**.
 
-#### install_slave.sh
+### install_slave.sh
 
 This module installs the packages which enables the Linux OS to be used as a **Jenkins Slave**.
 
-#### install_log_server.sh
+### install_log_server.sh
 
 This module installs the packages which enables the Linux OS to catch all the logs generated after each build in **Jenkins**.
 
